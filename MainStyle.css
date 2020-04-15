@@ -1,0 +1,178 @@
+/*For Main Page*/
+.grid-container {
+  align-content: center;
+  display: grid;
+  grid-template-columns: 1000px;
+  grid-template-rows: 100px 150px;
+  grid-template-areas: "Logo_Goes_Here""Account_Information""Action_Log";
+}
+
+.Logo_Goes_Here {
+  grid-area: Logo_Goes_Here;
+  border-radius: 30px 30px 0px 0px;
+  border-width: 2px;
+  border-color: black;
+  background-color: gainsboro;
+}
+
+.Account_Information {
+  display: grid;
+  grid-template-columns: 325px 475px 200px;
+  grid-template-rows: 150px;
+  grid-template-areas: "Profile_Information Current_Balance Widthdraw_Deposit_Section";
+  grid-area: Account_Information;
+  border-width: 2px;
+  border-color: black;
+}
+
+.Profile_Information {
+  padding-left: 25px;
+  grid-area: Profile_Information;
+  background-color: gainsboro;
+  border-width: 2px;
+  border-color: black;
+}
+
+.Current_Balance {
+  padding-top: 15px;
+  grid-area: Current_Balance;
+  background-color: gainsboro;
+  border-width: 2px;
+  border-color: black;
+  text-align: center;
+}
+
+.Widthdraw_Deposit_Section {
+  padding-top: 7px;
+  grid-area: Widthdraw_Deposit_Section;
+  background-color: gainsboro;
+  border-width: 2px;
+  border-color: black;
+  text-align: center;
+}
+
+.Action_Log {
+  grid-area: Action_Log;
+  background-color: gainsboro;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 0px 0px 30px 30px;
+}
+
+button{
+  font-size: 20px;
+  padding: 5px;
+  width: 125px;
+  border-radius: 10px;
+  background-color: ghostwhite;
+  box-shadow: 0.5px 0.5px dimgray;
+}
+
+input{
+  line-height: 35px;
+  font-size: 20px;
+  width: 150px;
+}
+
+.spacing{
+   margin:5px;
+}
+
+.centerDiv{
+   display: flex;
+   justify-content: center;
+   padding-top: 10px;
+}
+
+.Float_Right{
+   float: right;
+   padding-right: 30px;
+   padding-top: 5px;
+}
+
+.Padding_Left{
+   padding-left: 30px;
+}
+
+.Title_Page{
+   font-size: 60pt;
+   text-shadow: 3px 2px dimgray;
+}
+
+.TableCss{
+  display: flex;
+  justify-content: center;
+}
+
+.LightBLue{
+  background-color: lightblue;
+  border-radius: 10px;
+}
+/*========================================================*/
+/*For Log In Page*/
+.Login-card {
+  padding: 40px;
+  width: 274px;
+  background-color: #F7F7F7;
+  margin: 0 auto 10px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px dimgray;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.LoginTitle{
+  font-weight: 100;
+  text-align: center;
+  font-size: 2.3em;
+  
+}
+
+.LoginInput{
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 8px;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+}
+
+.LoginButton {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.LoginNoAccount {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.RegisterLink{
+    color: blue;
+}
+
+.centerDiv{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+ }
+ body{
+     background-image: url('background.jpg')
+ }
+ /*========================================================*/
